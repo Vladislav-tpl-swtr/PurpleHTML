@@ -1,0 +1,51 @@
+*{
+    background-color: #121928;
+    color: #FFFFFF;
+}
+
+main{
+    text-align: center;
+}
+.mainImage{
+    /* Rectangle 181 */
+
+    position: absolute;
+    width: 896px;
+    height: 594px;
+    left: 272px;
+    top: 397px;
+
+    border-radius: 5px;
+
+}
+nav{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px; 
+}
+
+a{
+    text-decoration: none;
+}
+.icon{
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Source Sans Pro'
+}
+.caption{
+    font-size: 14px;
+    line-height: 100%;
+}
+p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+footer p{
+    font-size: 16px;
+    line-height: 28px;  
+}
