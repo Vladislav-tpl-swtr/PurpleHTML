@@ -1,51 +1,114 @@
 *{
-    background-color: #121928;
     color: #FFFFFF;
 }
-
-main{
-    text-align: center;
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(180deg, #374151 0%, #111827 100%);
 }
-.mainImage{
-    /* Rectangle 181 */
+h1,h2,p{
+    font-family: 'Roboto', sans-serif;
+}
+p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+}
+a{
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
 
-    position: absolute;
-    width: 896px;
-    height: 594px;
-    left: 272px;
-    top: 397px;
-
-    border-radius: 5px;
-
+header{
+    /* background: #374151; */
+    margin: auto;
+    padding-bottom: 20px;
 }
 nav{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 16px; 
+    
+}
+nav ul{
+    list-style: none;  
+    margin: 0;
+    padding: 0; 
+}
+.icon img{
+    height: 35px;
+}
+.search input{
+    background: #1F293799;
+    border-radius: 100px;
+    height: 40px;
 }
 
-a{
-    text-decoration: none;
-}
-.icon{
-    font-size: 18px;
-    font-weight: 600;
-    font-family: 'Source Sans Pro'
-}
 .caption{
     font-size: 14px;
     line-height: 100%;
+    opacity: 60%;
+    width: 180px;
+    margin: 0px auto 14px;
 }
-p{
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 32px;
+.theme{
+    width: 525px;
+    height: 76px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 30px;
 }
-
+.theme h1{
+    margin: 0px;
+}
+.devCard{
+    margin:auto;
+    width: 214px;
+    margin-bottom: 28px;
+}
+.devImage img{
+    border-radius: 35px;
+}
+.devInfo h2,p{
+    margin: 0px;
+}
+.devInfo p{
+    opacity: 60%; 
+}
+.bigImage{
+    width: 896px;
+    height: 594px;
+    left: 272px;
+    top: 397px;
+    margin: auto;
+    margin-bottom: 70px;
+}
+.bigImage img{
+    border-radius: 5px;
+}
+article{
+    width: 708px;
+    margin: auto;
+    margin-bottom: 30px;
+}  
+article span{
+    text-decoration: underline;
+}
+article:not(.heroArticle){
+    font-size: 16px;
+    line-height: 30px;
+}
+footer{
+    width: 226px;
+    margin: 0 auto 77px;
+}
 footer p{
     font-size: 16px;
     line-height: 28px;  
+    opacity: 60%;
 }
+
+
+
