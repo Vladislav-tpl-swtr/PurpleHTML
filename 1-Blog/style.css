@@ -1,5 +1,6 @@
 *{
     color: #FFFFFF;
+    box-sizing: border-box;
 }
 body{
     margin: 0;
@@ -20,13 +21,13 @@ a{
     font-family: 'Roboto', sans-serif;
 }
 
+
 header{
     /* background: #374151; */
-    margin: auto;
-    padding-bottom: 20px;
+    margin-bottom: 20px;
 }
 nav{
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px; 
@@ -40,10 +41,29 @@ nav ul{
 .icon img{
     height: 35px;
 }
+
 .search input{
     background: #1F293799;
     border-radius: 100px;
+    border: none;
     height: 40px;
+    padding: 9px 49px 12px;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+.search img{
+    position: relative;
+    left: 36px;
+}
+.search input::placeholder{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px; 
+    opacity: 60%;
 }
 
 .caption{
