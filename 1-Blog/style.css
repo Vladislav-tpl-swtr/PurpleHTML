@@ -41,7 +41,9 @@ nav ul{
 .icon img{
     height: 35px;
 }
-
+.search {
+    position: relative;
+}
 .search input{
     background: #1F293799;
     border-radius: 100px;
@@ -55,8 +57,9 @@ nav ul{
     font-size: 16px;
 }
 .search img{
-    position: relative;
-    left: 36px;
+    position: absolute;
+    left: 18px;
+    top: 14px;
 }
 .search input::placeholder{
     font-family: 'Roboto', sans-serif;

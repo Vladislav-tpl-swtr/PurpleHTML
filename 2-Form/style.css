@@ -1,5 +1,10 @@
+*{
+    box-sizing: border-box;
+}
 main{
    background-color: #FFFEFE;
+   width: 582px;
+   margin: 0 95px 0 93px;
 }
 
 h1{
@@ -7,12 +12,14 @@ h1{
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
     font-size: 36px;
+    margin: 0;
 }
 
 p{
     color: #666666;
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
+    margin: 0;
 }
 
 label{
@@ -48,5 +55,19 @@ button{
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
     font-weight: 400;
+    border: none;
+    border-radius: 5px;
+    padding: 9px 102px;
+    width: 394px;
+    height: 44px;
 }
 
+.formSection{
+    width: 394px;
+}
+
+.buttonConfirm img{
+    position: relative;
+    left: 348px;
+    top: 20px
+}
