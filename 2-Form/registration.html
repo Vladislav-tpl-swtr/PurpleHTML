@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Регистрация</title>
 </head>
@@ -13,9 +14,9 @@
                 <a href="#">Войти</a>
             </p>
         </section>
-        <section>
+        <section class="formSection">
             <form action="#" method="post">
-                <div>
+                <div class="companyInput">
                     <input 
                     type="text" 
                     placeholder="Название компании" 
@@ -23,7 +24,7 @@
                     name="company"
                     required>
                 </div>
-                <div>
+                <div class="fullnameInput">
                     <input 
                     type="text" 
                     placeholder="Имя" 
@@ -37,7 +38,7 @@
                     name="surname"
                     required>
                 </div>
-                <div>
+                <div class="emailInput">
                     <input 
                     type="email" 
                     placeholder="E-mail" 
@@ -45,12 +46,14 @@
                     name="email"
                     required>
                 </div>
-                <div>
+                <div class="buttonConfirm">
+                    <img src="img/Arrow 1.svg" alt="Зарегистрироваться">
                     <button type="submit">Зарегистрироваться</button>
                 </div>
-                <div>
+                <div class="selectConfirm">
                     <input type="checkbox" name="confirm" id="confirm" required>
-                    <label for="confirm">Я прочитал и принимаю 
+                    <label for="confirm">
+                        Я прочитал и принимаю 
                         <a href="#">Условия использования</a>
                     </label>                                    
                 </div>

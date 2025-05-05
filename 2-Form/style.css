@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+}
+main{
+   background-color: #FFFEFE;
+   width: 582px;
+   margin: 0 95px 0 93px;
+}
+
+h1{
+    color: #333333;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    margin: 0 0 16px;
+}
+
+p{
+    color: #666666;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    margin: 0 0 47px;
+}
+
+label{
+    color: #666666;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+a{
+    color: #089FE0;
+}
+
+input {
+    background-color: #F5F5F5;
+    border: none;
+    border-radius: 5px;
+    width: 394px;
+    height: 44px;
+    color: #333333;
+    padding: 9px 11px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0 0 22px;
+}
+
+input::placeholder{
+    color: #999999;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: italic;
+}
+
+button{
+    background-color: #089FE0;
+    color: #FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    border: none;
+    border-radius: 5px;
+    padding: 9px 102px;
+    width: 394px;
+    height: 44px;
+    margin: 0 0 22px;
+}
+
+.formSection{
+    width: 394px;
+}
+#name{
+    width: 195px;
+    padding-right: 0;
+}
+#surname{
+    width: 195px;
+}
+.buttonConfirm {
+    position: relative;
+
+}
+.buttonConfirm img{
+    position: absolute;
+    left: 348px;
+    top: 11px;
+}
+
+.selectConfirm input{
+    width: 15px;
+    height: 16px;
+    border-radius: 1px;
+    border-color: #EEE;
+}
+
+.selectConfirm a {
+    text-decoration: none;
+}
